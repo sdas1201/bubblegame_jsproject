@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(76, 98, 91);
+    position: fixed;
+}
+#maintab{
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(131, 131, 63);
+    margin-left: 140px;
+    margin-top: 30px;
+    
+}
+#maintab-top{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+}
+#top-left{
+    width: 35%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+}
+#top-left h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 80px;
+}
+#hit{
+    background-color: white;
+    height: 20px;
+    width: 30px;
+    margin-top: 9px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+#time-interval{
+    background-color: white;
+    height: 20px;
+    width: 30px;
+    margin-top: 9px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+#score{
+    background-color: white;
+    height: 20px;
+    width: 30px;
+    margin-top: 9px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+#top-mid{
+    width: 30%;
+    height: 100%;
+    background-color: gold;
+    display: flex;
+}
+#top-right{
+    width: 35%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+}
+#top-mid h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 80px;
+}
+#top-right h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.elem{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin: 10px 10px;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: 900;
+    color: rgb(20, 36, 3);
+    border: orange 5px solid;
+    border-radius: 50%;
+    font-size: 23px;
+}
+.elem:hover{
+    background-color: rgb(26, 78, 26);
+    color: white;
+}
+#maintab-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+}
